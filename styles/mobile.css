@@ -1,0 +1,266 @@
+body {
+    font-size: 1em;
+    font-family: Helvetica, "Trebuchet MS", Verdana, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #808080;
+    height:100%;
+    width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+img{border:0px;}
+a{
+	
+	text-decoration:none;
+	text-align:left;
+	color: #808080;
+}
+
+#navWrap{
+	left:0px;
+	top: 0px;
+	z-index: 100;
+    width: 100%;
+}
+
+#graphic{
+    display: none;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+#box1, #box2, #box3, #box4, #box5, #box6, #box7{
+	height:5px;
+	width: 5px;
+	position:absolute;
+	background-color:white;
+	border: 3px solid #FF9900;
+}
+
+#box2, #box4, #box6{
+	left:20px;
+}
+#box3, #box5{
+	left:50px;
+}
+
+#box2, #box3, #box4, #box5, #box6{
+	
+}
+#box1{
+	z-index: 1;
+	top:0;
+	left:0;
+	border-left: 0px;
+	border-top: 0px;
+}
+
+#box2{
+	z-index: 2;
+	top:35px;
+}
+
+#box3{
+	z-index: 3;
+	top:70px;
+}
+#box4{
+	z-index: 4;
+	top:125px;
+}
+#box5{
+	z-index: 5;
+	top:180px;
+}
+#box6{
+	z-index: 5;
+	top:225px;
+}
+#box7{
+	z-index: 5;
+	top:280px;
+	left:60px;
+	border-bottom: 0px;
+	border-right: 0px;
+}
+
+#nav{
+    display: none;
+    position: fixed;
+    top: 120px;
+    height: 400px;
+    right: 10px;
+    z-index: 1000;
+    border: 1px solid #808080;
+    width: 400px;
+    background-color: white;
+}
+a.main-nav{
+	text-decoration:none;
+	display:block;
+	text-align:left;
+	color: #808080;
+    font-size: .75em;
+    text-indent: 10px;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+}
+
+a.selected{
+    
+    background-color: #808080;
+    color: #FF9900;
+}
+#content-wrap{
+	position:relative;
+    top: 50px;
+}
+
+#content-title, #content-title-no-border{
+	position:fixed;
+	height:150px;
+	left:0px;
+	top:0px;
+	right:0;
+	background-color:white;
+	z-index:100;
+	border-bottom: 2px solid #FF9900;
+	padding: 0 0 0 5px;
+}
+
+#content{
+	position:relative;
+	top:130px;
+	margin: 20px 0 0 10px;
+    font-size: 2em;
+    line-height: 2em;
+}
+#name{
+    display:none;
+}
+#page-title, #name-mobile{
+    margin: 50px 0 10px 0px;
+    font-weight: bold;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+}
+.title{
+	font-weight:bold;
+    font-size: 2em;
+    margin: 0 0 20px 0;
+}
+.section-entry{
+	margin-bottom:40px;
+}
+.section-title{
+	margin:20px 0 10px 0;
+	font-variant:small-caps;
+	letter-spacing:.1em;
+	font-weight:bold;
+    font-size: 2.1em;
+    margin: 0 0 40px 0;
+}
+.year-span{
+    font-weight: bold;
+    min-width: 300px;
+    vertical-align:top;
+	overflow:hidden;
+}
+.description{
+    vertical-align:top;
+	overflow:hidden;
+
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.num{
+}
+.count{
+	position:relative;
+	padding-left:30px;
+}
+.count:before {
+	counter-increment: section;
+	content: counter(section) ". ";
+	left:0;
+	top:0;
+	text-align:right;
+    font-size:1em;
+    font-weight: bold;
+}
+
+.section-counter{
+	counter-reset: section;
+}
+a.paper{
+	color:#FF9900;
+	font-weight:bold;
+}
+
+.last-updated{
+	margin: 20px 0 0 0;
+	font-style:italic;
+}
+
+.shield{
+    max-height: 120px;
+    margin: 0;
+}
+
+a.school-logo{
+    position:fixed;
+    top: 20px;
+    left: 10px;
+    z-index: 1000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.title-wrap{
+    margin-left: 180px;
+    position: relative;
+}
+
+div.center-mobile{
+    text-align:center;
+}
+div#h-menu{
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 1000;
+    font-size: 4em;
+}
+
+#hamburger{        
+    border: 1px solid #808080;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #808080;
+    color: white;}
+
+.standard{
+    display:none;
+}
+
+div.supplemental{
+    margin: 0 0 0 0;
+}
+
+div.supplemental .new-line{
+    display: block;
+    margin: 0 0 0 0;
+}

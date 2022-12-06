@@ -97,7 +97,7 @@ a.main-nav{
 	
 	#content{
 		position:relative;
-		top:130px;
+		top:160px;
 		margin: 20px 0 0 0;
 	}
 
@@ -233,13 +233,9 @@ a.main-nav{
 		text-align: left;
 	}
 
-	#name{
-		margin: 50px 0 0 0;
-		min-width: 600px;
-	}
 
 	#content-name{
-		margin: 0 0 10px 0;
+		font-weight: normal;
 	}
 	
 
